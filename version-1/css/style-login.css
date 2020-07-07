@@ -1,0 +1,67 @@
+/* ============== */
+/* ==== MENU ==== */
+/* ============== */
+.nav_menu li{ padding: 0 10px; text-transform: uppercase; font-size: 0.9em;}
+.menu_divisor{width: 1px; min-height: 35px; background: #fff; margin: 0 15px;}
+.icon_menu_login{color: #fff; font-size: 2em !important; transition: all 0.3s ease; padding: 0 15px;}
+.icon_menu_login:hover{color: #9ec0fa;}
+.nav_menu p{font-size: 0.75em; color: #fff; text-transform: uppercase; margin: 1%;}
+.nav_menu p a{color: #fff; font-weight: bold;}
+
+/* ================================== */
+/* ==== FORMS LOGIN AND REGISTER ==== */
+/* ================================== */
+/*modified bootstrap class*/
+.input-group-text{background: none; border-right: none;}
+.form-control{border-left: none; font-size: 0.9em; color: #999;}
+
+.form_login{border-right: 1px solid #ccc;}
+.form_login h2, .form_register h2{text-align: center; font-size: 2em; font-weight: bold;}
+.form_login h2{color: #00a0c6;}
+.form_register h2{color: #ff8800;}
+.form_login p, .form_register p{text-align: center; font-size: 1em; color: #555; }
+.form_login p strong, .form_register p strong{font-weight: bold;}
+.icon_form{color: #c9c9c9; font-size: 1.35em !important;}
+.bt-form{width: 100%; padding: 12px; font-size: 1em; font-weight: 700; text-transform: uppercase;}
+
+
+/* ================ */
+/* ==== FOOTER ==== */
+/* ================ */
+.footer_menu_titulo{font-size: 1em; color: #fff; font-weight: 700; text-transform: uppercase;}
+.footer_menu_icon{font-size: 0.75em; color: #fff; font-weight: 700; text-transform: uppercase; margin-bottom: 20px;}
+.footer_desc ul{margin: 0; padding: 0; list-style: none; margin-top: 15px;}
+.footer_desc ul li a{font-size: 0.9em; color: #fff; font-weight: 300;}
+.footer_desc ul li a:hover{text-decoration: underline;}
+.footer_p30_l{padding-left: 30px;}
+.footer_p60_l{padding-left: 60px;}
+
+.content_footer{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: left;  align-content: center;}
+.content_footer a{padding: 0 2px;}
+
+/* ====================================================== */
+/* ====================  BREAKPOINTS ==================== */
+/* ====================================================== */
+
+@media (max-width: 1200px) {  }
+
+@media (max-width: 992px) { 
+    /* ================================== */
+    /* ==== FORMS LOGIN AND REGISTER ==== */
+    /* ================================== */
+    .form_login{border-right: none; }
+
+    /* ================ */
+    /* ==== FOOTER ==== */
+    /* ================ */
+    .footer_p_top{padding-top: 30px;}
+    .footer_menu_titulo, .footer_desc ul, .footer_menu_icon{text-align: center;}
+    .footer_p60_l{padding-left: 0; padding: 0 15px; padding-top: 30px;}
+    .content_footer{justify-content: center;}
+ }
+
+@media (max-width: 768px) {  }
+
+@media (max-width: 576px) {  }
+
+

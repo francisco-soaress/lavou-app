@@ -1,0 +1,203 @@
+html,body{
+    width: 100%;
+    height:100%;
+}
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+
+    line-height: 1.2;
+    letter-spacing: 0em;
+    vertical-align: middle;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+/* ----- VIDEOS ----- */
+object,
+embed,
+video,
+iframe,
+iframe['style']{max-width: 100%; height: auto;}
+
+
+.destaque_video{margin:0 auto; width: 100%; padding: 10px; background: rgba(255, 255, 255, 0.2); float: left;}
+.ratio{position: relative; padding-bottom: 56.25%; float: left; width: 100%; height: 0;}
+.media{position: absolute; width: 100%; height: 100%; left: 0; top:0;}
+
+/* ----- MAPA ----- */
+.destaque-mapa{margin:0 auto; width: 100%; float: left;}
+.ratio-mapa{position: relative; padding-bottom: 48.25%; float: left; width: 100%; height: 0;}
+.media-mapa{position: absolute; width: 100%; height: 100%; left: 0; top:0;}
+
+/*----- PADROES -----*/
+.clear{clear: both;}
+.fontzero{font-size: 0em;}
+img{max-width: 100%; border: 0;}
+a img{border:0;}
+a{text-decoration: none;}
+hr{width: 20%; max-width:200px; border: 0.5px solid #ffcc00; margin: 0 auto; margin-top: 20px;}
+.icon{vertical-align: middle;}
+
+
+/* ----- CONTAINERS E CONTENTS ----- */
+.container{width: 100%; height: auto; margin:0 auto;}
+.container-topo{width: 100%; height: 100%; margin:0 auto;}
+
+.content{display:  block; margin: 0 auto; padding: 20px 0; width: 80%; max-width: 1000px;}
+.content-topicos{display:  block; margin: 0 auto; padding: 20px 0; width: 95%; max-width: 1300px;}
+.content-header{display:  block; margin: 0 auto; padding: 0; width: 85%; max-width: 1200px;}
+.content-palestrante{display:  block; margin: 0 auto; width: 90%; max-width: 1200px;}
+.content-galery{display:  block; margin: 0 auto; padding: 0; width: 100%;}
+
+/* ---- BOX ---- */
+.box25{float:left; width: 25%;}
+.box30{float:left; width: 30%;}
+.box35{float:left; width: 35%;}
+.box40{float:left; width: 40%;}
+.box45{float:left; width: 45%;}
+.box50{float:left; width: 50%;}
+.box55{float:left; width: 55%;}
+.box60{float:left; width: 60%;}
+.box65{float:left; width: 65%;}
+.box70{float:left; width: 70%;}
+
+/* ----- IMGs ----- */
+.img-logo{width: 120px;}
+
+/* ----- BACKGROUND -----*/
+.bg-brown{background: #613d21;}
+.bg-green{background: #199483;}
+.bg-blue{background: #01425a;}
+.bg-gray{background: #333;}
+.bg-gray-opaciti{background: rgba(0, 0, 0, 0.6);}
+.bg-blue-light{background: #02709d;}
+.bg-blue-dark{background: #015a7f;}
+
+/* ----- MARGINS ----- */
+.m15-top-bottom{margin:15px 0;}
+.m15-top{margin-top: 15px;}
+.m15-bottom{margin-bottom: 15px;}
+.m30-top-bottom{margin:30px 0;}
+.m30-top{margin-top: 30px;}
+.m30-bottom{margin-bottom: 30px;}
+.m60-top-bottom{margin:60px 0;}
+.m60-top{margin-top: 60px;}
+.m60-bottom{margin-bottom: 60px;}
+
+/* ----- PADDINGS ----- */
+.p30-top{padding-top: 30px;}
+.p30-bottom{padding-bottom: 30px;}
+.p60-top{padding-top: 60px;}
+.p60-bottom{padding-bottom: 60px;}
+.p30-top-bottom{padding: 30px 0;}
+.p60-top-bottom{padding: 60px 0;}
+
+/* ----- FONT_FAMILY ----- */
+.font-family-anton{font-family: 'Anto', sans-serif;}
+
+/* ----- TXT-SHADOW ----- */
+.txt-shadow{text-shadow: 1px 1px #1f1f1f;}
+
+/* ----- COLOR ----- */
+.color-yellow{color: #ffff00;}
+.color-white{color: #fff;}
+.color-gray{color: #333;}
+.color-blue{color: #308fc0;}
+.color-red{color: #ee0000;}
+
+/* ----- FONT_SIZE ----- */
+.f-size-24{font-size: 2.4em;}
+
+/* ----- TXT-TRANSFORME ----- */
+.tt-uppercase{text-transform: uppercase;}
+
+/* ----- LIST STYLE ----- */
+.list-style-none{list-style: none;}
+
+/* ----- FONT-WEIGHT ----- */
+.f-bold{font-weight: bold;}
+.f-400{font-weight: 400;}
+.f-300{font-weight: 300;}
+
+/* ==================== BOTÕES ==================== */
+.bt{display: inline-block; cursor: pointer; padding: 7px 12px; margin-top: 2px; background: #888; font-size: 0.9em; color: #fff; 
+    text-decoration: none !important;  text-align: center; border: none; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-shadow: 1px 1px #555;
+}
+.bt:hover{background: #555; text-decoration: none !important;}
+
+.bt-yellow{background: #ffc000;}
+.bt-yellow:hover{background: #ffa800 !important;}
+
+.bt-green{background: #2b8d5e;}
+.bt-green:hover{background: #30a06a !important;}
+
+.bt-blue{background: #308fc0;}
+.bt-blue:hover{background: #499fcb;}
+
+.bt-orange{background: #cd6304;}
+.bt-orange:hover{background: #cd6304;}
+
+
+/* BT REDES SOCIAIS */
+.footer-bt{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px; 
+    text-decoration: none !important;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px; 
+    margin: 15px 5px 30px 5px;
+       
+}
+
+.footer-bt-facebook{background: #3b5998;}
+.footer-bt-facebook:hover{background: #5179c9; transition:all 0.3s ease;}
+.footer-bt-instagram{background: #bc2a8d;}
+.footer-bt-instagram:hover{background: #e73db1; transition:all 0.3s ease;}
+.footer-bt-googleplus{background: #db4437;}
+.footer-bt-googleplus:hover{background: #f36053; transition:all 0.3s ease;}
+.footer-bt-youtube{background: #e52d27;}
+.footer-bt-youtube:hover{background: #ec443e; transition:all 0.3s ease;}
+.footer-bt-twitter{background: #1da1f2;}
+.footer-bt-twitter:hover{background: #51b7f7; transition:all 0.3s ease;}
+.footer-bt-flickr{background: #0d64d2;}
+.footer-bt-flickr:hover{background: #0a6eec; transition:all 0.3s ease;}
+
+/* ==== efeitos */
+
+@keyframes levitar{
+    0%, 20%, 60%, 100%{-webkit-transform: translateY(0); transform: translateY(0);}
+    40%{-webkit-transform: translateY(-10px); transform: translateY(-10px);}
+    80%{-webkit-transform: translateY(-5px); transform: translateY(-5px);}
+}
+.efeito-levitar:hover{animation: levitar 1s;}
+
+@media(max-width: 1100px){
+    .content-header{width: 100%;}        
+}
+@media(max-width: 1050px){
+    .content-palestrante{width: 100%;}    
+    .content{width: 93%;}
+    .content-header{width: 93%;}
+
+    /* ----- IMGs ----- */
+    .img-logo{width: 100px;}
+}
+
+
+

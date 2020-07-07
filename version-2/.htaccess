@@ -1,0 +1,16 @@
+RewriteEngine on
+Options All -Indexes
+
+#WWW redirect
+#RewriteCond %{HTTPS_HOST} !^www\. [NC]
+#RewriteRule ^ https://www.%{HTTPS_HOST}%{REQUEST_URI} [L,R=301]
+
+#HTTPS redirect
+RewriteCond %{HTTPS:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTPS_HOST}%{REQUEST_URI} [L,R=301]
+
+#URL Rewrite
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1

@@ -1,0 +1,118 @@
+/*====== MAIN ======*/
+
+/* ==== main-banner */
+.header{
+    /* background-color:#fff;  */
+    background-image: linear-gradient(to left top, #00a0c6 , #00a0c6), url(../_images/fundo-tira.png);
+    background-blend-mode: lighten; 
+    background-size: contain;     
+    background-position: bottom center; 
+    background-repeat:no-repeat; 
+    padding: 60px 0 120px 0;    
+    position: relative;
+}
+.header h1{
+    font-size: 1.4em; 
+    color: #fff;
+    font-weight: 300;
+    margin: 15px 0 60px 0;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.header h2{
+    font-size: 2.6em; 
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header p{font-size: 1.6em; display: inline-block; background: #f83636;  color: #fff; font-weight: 300; text-transform: uppercase; margin: 30px 0; padding:15px 30px;}
+.header p strong{font-size: 1.1em; font-weight: 700; vertical-align: baseline;}
+.header_frase_chamada{font-size: 1.6em; color: #ff0; font-weight: 300; text-transform: uppercase; margin: 30px 0;}
+
+/* ==== form-header */
+.contato_form{width: 80%;  margin: 0 auto;}
+.cadeado{font-size: 0.7em; color: #fff; font-weight: 300; text-transform: uppercase; margin: 15px 0 15px 0;}
+.cadeado .icon_webinar{ color: #ffcc00; font-size: 1.3em;}
+
+.contato_form input,
+.contato_form textarea
+{
+    width: 100%;
+    border: none;    
+    padding: 15px;
+    float: left;    
+    text-align: left;
+    font-size: 0.9em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+    background: none;
+
+    border-left: #333 1px solid;
+    
+    border-bottom:#333 1px solid;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.3s ease;
+}
+::-webkit-input-placeholder{color: #fff; font-weight: 300;}
+::-moz-input-placeholder{color: #fff; font-weight: 300;}
+::-ms-input-placeholder{color: #fff; font-weight: 300;}
+.contato_form input:hover,
+.contato_form textarea:hover{border-bottom:#fff 1px solid; border-left: #fff 1px solid; }
+.contato_form input:focus,
+.contato_form textarea:focus{border-bottom:#fff 1px solid; border-left: #fff 1px solid;}
+
+.contato_form .btn{
+    width: 100%;
+    border:none;    
+    background-color:#000;
+    padding: 14px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em; 
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 4px #333 solid;
+    
+    
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.contato_form .btn:hover{border-bottom: 2px #333 solid; color: #fff; }
+
+
+
+
+/* ================ */
+/* ==== FOOTER ==== */
+/* ================ */
+.footer{padding: 15px 0;}
+.footer h1{font-size: 0.75em; color: #333; font-weight: 300;}
+.footer h1 a{vertical-align: baseline; color: #09f; font-weight: 300;}
+.footer h1 a:hover{color: #00deff;}
+
+
+/* ================== */
+/* ===== MOBILE ===== */
+/* ================== */
+
+@media(max-width: 1050px){
+    /* ==== main-header */    
+    .header{padding: 30px 0 60px 0;}
+    .header h2{font-size: 2.4em;}
+
+    /* ==== form-header */
+    .contato_form{width: 100%;}
+    .contato_form .btn{padding: 14px; font-size: 1.4em;}    
+}

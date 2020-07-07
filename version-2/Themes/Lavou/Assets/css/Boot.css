@@ -1,0 +1,265 @@
+/* ========================== */
+/* ========== BOOT ========== */
+/* ========================== */
+*, *:before, *:after{   
+    font-family: 'Roboto', sans-serif;   
+}
+
+/* ================================= */
+/* ========== VARS COLORS ========== */
+/* ================================= */
+:root{
+    --lightgray: #f5f5f5;
+    --darkblue: #356bc5;
+    --lavoublue: #00a0c6;
+    --lavoudarkblue: #047d9a;
+    --lavoublack: #000;
+}
+
+/* ================================= */
+/* ========== BACKGROUNDS ========== */
+/* ================================= */
+.bg-darkblue{background: var(--darkblue);}
+.bg-lightgray{background: var(--lightgray);}
+.bg-lavoublue{background: var(--lavoublue);}
+.bg-lavoudarkblue{background: var(--lavoudarkblue);}
+.bg-lavoublack{background: var(--lavoublack);}
+
+/* =============================== */
+/* ========== BTN-FORMs ========== */
+/* =============================== */
+.bt-bg-blue-border-blue{background: var(--lavoublue); border: 1px var(--lavoudarkblue) solid; color: #fff; transition: all 0.3s ease; cursor: pointer;}
+.bt-bg-blue-border-blue:hover{background: var(--lavoudarkblue);}
+.bt-bg-gray-border-gray{background: #333; border: 1px #111 solid; color: #fff; transition: all 0.3s ease; cursor: pointer;}
+.bt-bg-gray-border-gray:hover{background: #111;}
+
+/* ================================ */
+/* ========== TRANSITION ========== */
+/* ================================ */
+.transition{transition: all 0.3s ease;}
+
+
+/* ============================== */
+/* ========== FLEX BOX ========== */
+/* ============================== */
+.flex-container{display: flex; flex-wrap: wrap;}
+.flex-container .flex-1{flex-basis: 100%;}
+.flex-container .flex-2{flex-basis: calc(50% - 40px); margin: 20px;}
+.flex-container .flex-3{flex-basis: calc(33.33% - 30px); margin: 15px;}
+.flex-container .flex-4{flex-basis: calc(25% - 20px); margin: 10px;}
+
+.flex-container .flex-30{flex-basis: 30%;}
+.flex-container .flex-40{flex-basis: 40%;}
+.flex-container .flex-50{flex-basis: 50%;}
+.flex-container .flex-60{flex-basis: 60%;}
+.flex-container .flex-70{flex-basis: 70%;}
+.flex-container .flex-100{flex-basis: 100%;}
+
+/* ==== grid-container ==== */
+.grid-container{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+.grid-container-flex{display: flex; flex-wrap: wrap; justify-content: center;} 
+
+
+/* ========================== */
+/* ========== IMGS ========== */
+/* ========================== */
+img{max-width: 100%; border: 0;}
+.img-100{width: 100px;}
+.img-125{width: 125px;}
+.img-150{width: 150px;}
+.img-175{width: 175px;}
+.img-200{width: 200px;}
+.img-300{width: 300px;}
+.img-400{width: 400px;}
+.img-500{width: 500px;}
+
+.img-logo-footer-300{width: 300px; }
+
+/* ========================= */
+/* ========== HRs ========== */
+/* ========================= */
+.hr-title{width: 20%; max-width:100px; border: 2px solid var(--lavoublue); margin: 0 auto; margin-top: 20px;}
+
+/* ============================= */
+/* ========== BORDERS ========== */
+/* ============================= */
+.border-l{border-left: 1px solid var(--lavoudarkblue);}
+.border-r{border-right: 1px solid #1e4891;}
+
+/* ============================== */
+/* ========== PADDINGS ========== */
+/* ============================== */
+.p15{padding:15px;}
+/*top and bottom*/
+.p15-top-bottom{padding: 15px 0;}
+.p30-top-bottom{padding: 30px 0;}
+.p45-top-bottom{padding: 45px 0;}
+.p60-top-bottom{padding: 60px 0;}
+.p75-top-bottom{padding: 75px 0;}
+.p90-top-bottom{padding: 90px 0;}
+/*top*/
+.p15-top{padding-top: 15px;}
+.p30-top{padding-top: 30px;}
+.p45-top{padding-top: 45px;}
+.p60-top{padding-top: 60px;}
+.p75-top{padding-top: 75px;}
+.p90-top{padding-top: 90px;}
+/*bottom*/
+.p15-bottom{padding-bottom: 15px;}
+.p30-bottom{padding-bottom: 30px;}
+.p45-bottom{padding-bottom: 45px;}
+.p60-bottom{padding-bottom: 60px;}
+.p75-bottom{padding-bottom: 75px;}
+.p90-bottom{padding-bottom: 90px;}
+/*left and right*/
+.p15-left-right{padding: 0 15px;}
+.p30-left-right{padding: 0 30px;}
+.p45-left-right{padding: 0 45px;}
+.p60-left-right{padding: 0 60px;}
+.p75-left-right{padding: 0 75px;}
+.p90-left-right{padding: 0 90px;}
+
+/*left*/
+.p5-left{padding-left: 5px;}
+.p10-left{padding-left: 10px;}
+.p15-left{padding-left: 15px;}
+.p30-left{padding-left: 30px;}
+.p45-left{padding-left: 45px;}
+.p60-left{padding-left: 60px;}
+.p75-left{padding-left: 75px;}
+.p90-left{padding-left: 90px;}
+/*right*/
+.p5-right{padding-right: 5px;}
+.p10-right{padding-right: 10px;}
+.p15-right{padding-right: 15px;}
+.p30-right{padding-right: 30px;}
+.p45-right{padding-right: 45px;}
+.p60-right{padding-right: 60px;}
+.p75-right{padding-right: 75px;}
+.p90-right{padding-right: 90px;}
+
+
+.baseline-font{vertical-align: baseline;}
+
+/*bt-icons-small*/
+.bt-icons-small{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px; 
+    text-decoration: none !important;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px; 
+    margin: 0 5px;  
+    color: #fff;    
+}
+
+.bt-icons-small-facebook{background: #3b5998;}
+.bt-icons-small-facebook:hover{background: #5179c9; transition:all 0.3s ease;}
+.bt-icons-small-googleplus{background: #db4437;}
+.bt-icons-small-googleplus:hover{background: #fd8277; transition:all 0.3s ease;}
+.bt-icons-small-twitter{background: #1da1f2;}
+.bt-icons-small-twitter:hover{background: #72c8fd; transition:all 0.3s ease;}
+.bt-icons-small-instagram{background: #bc2a8d;}
+.bt-icons-small-instagram:hover{background: #e73db1; transition:all 0.3s ease;}
+
+/*bt-icons-line*/
+.bt-icons-line{cursor: pointer; font-size: 1.8em; margin: 0;}
+.bt-icons-line-facebook{color: var(--lavoudarkblue);}
+.bt-icons-line-facebook:hover{color: #111; transition:all 0.3s ease;}
+.bt-icons-line-instagram{color: var(--lavoudarkblue);}
+.bt-icons-line-instagram:hover{color: #111; transition:all 0.3s ease;}
+.bt-icons-line-linkedin{color: var(--lavoudarkblue);}
+.bt-icons-line-linkedin:hover{color: #111; transition:all 0.3s ease;}
+
+/*bt-icons-white*/
+.bt-icons-white{cursor: pointer; font-size: 1.8em;}
+.bt-icons-white-facebook{color: #fff;}
+.bt-icons-white-facebook:hover{color: #5179c9; transition:all 0.3s ease;}
+.bt-icons-white-instagram{color: #fff;}
+.bt-icons-white-instagram:hover{color: #e73db1; transition:all 0.3s ease;}
+.bt-icons-white-twitter{color: #fff;}
+.bt-icons-white-twitter:hover{color: #72c8fd; transition:all 0.3s ease;}
+
+/*bt-icons-dark*/
+.bt-icons-dark{cursor: pointer; font-size: 1.5em;}
+.bt-icons-dark-facebook{color: #999;}
+.bt-icons-dark-facebook:hover{color: #5179c9; transition:all 0.3s ease;}
+.bt-icons-dark-instagram{color: #999;}
+.bt-icons-dark-instagram:hover{color: #e73db1; transition:all 0.3s ease;}
+.bt-icons-dark-twitter{color: #999;}
+.bt-icons-dark-twitter:hover{color: #72c8fd; transition:all 0.3s ease;}
+.bt-icons-dark-linkedin{color: #999;}
+.bt-icons-dark-linkedin:hover{color: #0e76a8; transition:all 0.3s ease;}
+
+/*bt-icons-line-big*/
+.bt-icons-line-big{cursor: pointer; font-size: 2em; margin: 0 5px;}
+.bt-icons-line-small{cursor: pointer; font-size: 1.8em; margin: 0 5px;}
+.bt-icons-line-big-facebook{color: #3b5998;}
+.bt-icons-line-big-facebook:hover{color: #5179c9; transition:all 0.3s ease;}
+.bt-icons-line-big-instagram{color: #bc2a8d;}
+.bt-icons-line-big-instagram:hover{color: #e73db1; transition:all 0.3s ease;}
+.bt-icons-line-big-twitter{color: #1da1f2;}
+.bt-icons-line-big-twitter:hover{color: #72c8fd; transition:all 0.3s ease;}
+.bt-icons-line-big-linkedin{color: #0e76a8;}
+.bt-icons-line-big-twitter:hover{color: #0d8fce; transition:all 0.3s ease;}
+
+.bt-icons-line-big-facebook-color{color: #3b5998;}
+.bt-icons-line-big-facebook-color:hover{color: #5179c9; transition:all 0.3s ease;}
+.bt-icons-line-big-instagram-color{color: #bc2a8d;}
+.bt-icons-line-big-instagram-color:hover{color: #e73db1; transition:all 0.3s ease;}
+.bt-icons-line-big-twitter-color{color: #1da1f2;}
+.bt-icons-line-big-twitter-color:hover{color: #72c8fd; transition:all 0.3s ease;}
+.bt-icons-line-big-linkedin-color{color: #0e76a8;}
+.bt-icons-line-big-linkedin-color:hover{color: #0d8fce; transition:all 0.3s ease;}
+
+.bt-icons-line-big-facebook-dark{color: rgba(0, 0, 0, 0.4);}
+.bt-icons-line-big-facebook-dark:hover{color: #5179c9; transition:all 0.3s ease;}
+.bt-icons-line-big-instagram-dark{color: rgba(0, 0, 0, 0.4);}
+.bt-icons-line-big-instagram-dark:hover{color: #e73db1; transition:all 0.3s ease;}
+.bt-icons-line-big-twitter-dark{color: rgba(0, 0, 0, 0.4);}
+.bt-icons-line-big-twitter-dark:hover{color: #72c8fd; transition:all 0.3s ease;}
+
+/* ====================================================== */
+/* ====================  BREAKPOINTS ==================== */
+/* ====================================================== */
+
+@media (max-width: 1200px) {  }
+
+@media (max-width: 992px) { 
+    /* ================================== */
+    /* ==== FORMS LOGIN AND REGISTER ==== */
+    /* ================================== */
+    .form_login{border-right: none; margin-bottom: 60px;}
+
+    /* ============================= */
+    /* ========== BORDERS ========== */
+    /* ============================= */
+    .border-l{border-left: none;}
+    .border-r{border-right: none;}
+
+    .bt-icons-line{text-align: center !important;}
+
+    /* ========================== */
+    /* ========== IMGS ========== */
+    /* ========================== */
+    .img-logo-footer-300{text-align: center !important;}
+
+    /* ============================== */
+    /* ========== FLEX BOX ========== */
+    /* ============================== */
+    .flex-container .flex-30, 
+    .flex-container .flex-40, 
+    .flex-container .flex-50,
+    .flex-container .flex-60,
+    .flex-container .flex-70{
+        flex-basis: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {  }
+
+@media (max-width: 576px) {  }
